@@ -97,7 +97,7 @@ a {
     font-size: 1rem;
    }
    
-  /* .profile_bg{
+   /* .profile_bg{
      background-image: url("../assets/200w.gif");
      background-size: cover;
      background-repeat: no-repeat;
@@ -105,7 +105,7 @@ a {
      width: 16rem;
      height: auto;
      mix-blend-mode: lighten; 
-      } */
+      }  */
       
    .container_img{
     display: grid;
@@ -167,7 +167,7 @@ a {
     backdrop-filter: blur(1rem);
     border-radius: 5rem;
     transition: 0.5s;
-    /* animation: gradient_301 5s ease infinite; */
+    animation: gradient_301 5s ease infinite;
     border: double 4px transparent;
     background-image: linear-gradient(#212121, #212121),
       linear-gradient(
@@ -249,21 +249,21 @@ a {
     height: 200rem;
   }
   
-  #stars::after {
+  /* #stars::after {
     content: "";
     position: absolute;
     top: -10rem;
     left: -100rem;
     width: 100%;
     height: 100%;
-    /* animation: animStarRotate 90s linear infinite; */
+    animation: animStarRotate 90s linear infinite;
   }
   
   #stars::after {
     background-image: radial-gradient(#ffffff 1px, transparent 1%);
     background-size: 50px 50px;
-  }
-  
+  } */
+/*   
   #stars::before {
     content: "";
     position: absolute;
@@ -271,16 +271,16 @@ a {
     left: -50%;
     width: 170%;
     height: 500%;
-    /* animation: animStar 60s linear infinite; */
+    animation: animStar 60s linear infinite;
   }
   
   #stars::before {
     background-image: radial-gradient(#ffffff 1px, transparent 1%);
     background-size: 50px 50px;
     opacity: 0.5;
-  }
+  } */
   
-  /* @keyframes animStar {
+  @keyframes animStar {
     from {
       transform: translateY(0);
     }
@@ -330,4 +330,4 @@ a {
       box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
   }
-   */
+  
