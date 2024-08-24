@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crisforever - Linktree</title>
+    <meta name="description" content="I'm Cristian Rojas, a frontend developer passionate about creating visually appealing and functional websites. Explore my portfolio and contact me for more information.">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="./js/main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82b9ac6028.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./assets/enlace-roto.png" type="image/x-icon">
+</head>
+
+
+<body>
+    <div id="particles-js"></div>
+    <main>
+        <div class="container_name">
+            <h1>I'm Crisforever</h1>
+            <div class="container_img">
+
+                <div class="profile_bg">
+
+                    <img src="./assets/Picsart_24-08-09_17-26-56-095 (1).jpg" alt="Profile" class="profile_img">
+                </div>
+            </div>
+        </div>
+
+        <div class="container_bio">
+            <p>
+                Although my nickname is in English, my real name comes from Spanish, i'm Cristian Rojas, developer
+                frontend,
+                i love makes a nice websites, send me a message for more info !
+
+            </p>
+        </div>
+
+        <div class="container_links">
+            <button type="button" class="btn" id="btn-ig">
+                <strong><i class="fa-brands fa-instagram"></i></strong>
+                <strong>Instagram</strong>
+                <div id="container-stars">
+                    <div id="stars"></div>
+                </div>
+                <div id="glow">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </button>
+            <button type="button" class="btn" id="btn-gh">
+                <strong><i class="fa-brands fa-github"></i></strong>
+                <strong>Github</strong>
+                <div id="container-stars">
+                    <div id="stars"></div>
+                </div>
+                <div id="glow">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </button>
+            <button type="button" class="btn" id="btn-gm">
+                <strong><i class="fa-solid fa-envelope"></i></strong>
+                <strong>Gmail</strong>
+                <div id="container-stars">
+                    <div id="stars"></div>
+                </div>
+                <div id="glow">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </button>
+        </div>
+
+
+        <script src="./js/particles.js"></script>
+        <script>
+            particlesJS(
+
+                {
+                    "particles": {
+                        "number": {
+                            "value": 99,
+                            "density": {
+                                "enable": true,
+                                "value_area": 800
+                            }
+                        },
+                        "color": {
+                            "value": "#ffffff"
+                        },
+                        "shape": {
+                            "type": "circle",
+                            "stroke": {
+                                "width": 0,
+                                "color": "#000000"
+                            },
+                            "polygon": {
+                                "nb_sides": 5
+                            },
+                            "image": {
+                                "src": "img/github.svg",
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+                        "opacity": {
+                            "value": 0.5,
+                            "random": false,
+                            "anim": {
+                                "enable": false,
+                                "speed": 1,
+                                "opacity_min": 0.1,
+                                "sync": false
+                            }
+                        },
+                        "size": {
+                            "value": 5,
+                            "random": true,
+                            "anim": {
+                                "enable": false,
+                                "speed": 40,
+                                "size_min": 0.1,
+                                "sync": false
+                            }
+                        },
+                        "line_linked": {
+                            "enable": true,
+                            "distance": 150,
+                            "color": "#ffffff",
+                            "opacity": 0.4,
+                            "width": 1
+                        },
+                        "move": {
+                            "enable": true,
+                            "speed": 6,
+                            "direction": "none",
+                            "random": false,
+                            "straight": false,
+                            "out_mode": "out",
+                            "bounce": false,
+                            "attract": {
+                                "enable": false,
+                                "rotateX": 600,
+                                "rotateY": 1200
+                            }
+                        }
+                    },
+                    "interactivity": {
+                        "detect_on": "canvas",
+                        "events": {
+                            "onhover": {
+                                "enable": true,
+                                "mode": "grab"
+                            },
+                            "onclick": {
+                                "enable": false,
+                                "mode": "bubble"
+                            },
+                            "resize": true
+                        },
+                        "modes": {
+                            "grab": {
+                                "distance": 121.49388885739049,
+                                "line_linked": {
+                                    "opacity": 1
+                                }
+                            },
+                            "bubble": {
+                                "distance": 400,
+                                "size": 40,
+                                "duration": 2,
+                                "opacity": 8,
+                                "speed": 3
+                            },
+                            "repulse": {
+                                "distance": 200,
+                                "duration": 0.4
+                            },
+                            "push": {
+                                "particles_nb": 4
+                            },
+                            "remove": {
+                                "particles_nb": 2
+                            }
+                        }
+                    },
+                    "retina_detect": true
+                }
+
+            )
+        </script>
+    </main>
+
+
+</body>
+
+</html>
